@@ -48,10 +48,15 @@ public class Calculadora {
   public void suma(float n1, float n2) {
     System.out.println("La suma de " + n1 + " más " + n2 + " es " + (n1 + n2));
   }
-
+  
   public void resta(float n1, float n2) {
     System.out.println("La resta de " + n1 + " menos " + n2 + " es " + (n1 - n2));
   }
+
+  public void multiplica(float n1, float n2) {
+    System.out.println("La multiplicación de " + n1 + " por " + n2 + " es " + (n1 * n2));
+  }
+
 
   // Métodos Getters y Setters
   // Métodos para poder acceder a los atributos declarados como privados
